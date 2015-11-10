@@ -120,7 +120,7 @@ ddescribe("Jasmine template for Sugar 7 views", function () {
 
     });
 
-    it('should contain a dataObjForTemplate property', function() {
+    it('should contain a senderEmail property', function() {
         expect(view.senderEmail).toBeDefined();
         expect(view.senderEmail).toEqual('admin@sugarcrm.com');
     });
